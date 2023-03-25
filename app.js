@@ -56,7 +56,7 @@ function renderImage() {
             'eng',
             { logger: m => console.log(m) }
         ).then(({ data: { text } }) => {
-            if (text) { searchTextInChat(text) }
+            if (text) { searchTextInChart(text) }
         })
     }
 
@@ -72,7 +72,7 @@ function drawCircle() {
     }
 }
 
-function searchTextInChat(text) {
+function searchTextInChart(text) {
 
     console.log(text);
 
